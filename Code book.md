@@ -1,5 +1,6 @@
+# Getting and Cleaning Data -- Course Project -- Code Book
 
-This code book summarizes the resulting data fields in tidy.txt.
+This is the code book for data "tidy.txt".
 
 Variables:
 
