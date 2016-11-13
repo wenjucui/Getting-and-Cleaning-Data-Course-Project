@@ -12,4 +12,5 @@ An R script called run_analysis.R is created and does the following:
    7. Creates a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
 
 To run the sript, please follow the instructions in the script.
+
 The final tidy dataset is "tidy.txt".
