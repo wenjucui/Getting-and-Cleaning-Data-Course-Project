@@ -1,7 +1,7 @@
 ## 11-12-2016
 ## Getting and Cleaning Data Course Project
 
-## make sure of the current working directory
+## Make sure of the current working directory
 getwd()  
 
 
@@ -67,14 +67,14 @@ test <- cbind(test_subjects, test_Y, test_X)
 head(test)
 
 
-## merge train/test and add labels
+## Merge train/test and add labels
 Data_all <- rbind(train, test)
 head(Data_all)
 colnames(Data_all) <- c("subject", "activity", features_sub_names)
 head(Data_all)
 
 
-## turn activities & subjects from integer to factor
+## Turn activities & subjects from integer to factor
 class(Data_all$activity)
 class(Data_all$subject)
 Data_all$activity <- factor(Data_all$activity, levels = activity_labels[,1], labels = activity_labels[,2])
@@ -88,5 +88,5 @@ Data_all_mean <- dcast(Data_all_melted, subject + activity ~ variable, mean)
 head(Data_all_mean)
 
 
-## save cleaned data
+## Save cleaned data
 write.table(Data_all_mean, "tidy.txt", row.names = FALSE, quote = FALSE)
