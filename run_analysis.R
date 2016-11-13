@@ -5,7 +5,7 @@
 getwd()  
 
 
-## install package reshape2
+## Install package reshape2
 library(reshape2)
 
 ## Download and unzip data
