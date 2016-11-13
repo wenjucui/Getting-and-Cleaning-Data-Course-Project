@@ -4,6 +4,7 @@ This code book modifies and updates the available codebooks with the data to ind
 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
+==================================================================
 
 Data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Data set description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -50,7 +51,8 @@ Notes:
 - Each feature vector is a row on the text file.
 
 =========================================
-
+Cleaned data:
+=========================================
 The cleaned data is "tidy.txt".
 It has the average of each variable for each activity and each subject.
 
